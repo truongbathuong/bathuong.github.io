@@ -7,6 +7,12 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
+.clear{
+    clear: both;
+}
+.text-white{
+    color: white !important;
+}
 #wrapper{
 
 }
@@ -85,7 +91,7 @@ html{
     cursor: pointer;
 }
 /* End header */
-
+/* Begin Slider */
 #slider{
     position: relative;
     margin-top: 46px;
@@ -114,23 +120,128 @@ html{
     font-size: 15px;
     margin-top: 25px;
 }
+/* End Slider */
+
 
 #content{
 
-}
-
-#about{
 
 }
-
-#contact{
+#content .content-section{
+    width: 800px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
 
 }
-
-#imgcontent{
+#content .section-heading,
+.section-sub-heading
+{
+    text-align: center;
+}
+#content .section-sub-heading{
+    font-size: 15px;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.6;
+}
+#content .section-heading{
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+.about-content{
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 1.4 ;
 
 }
+/* About */
+#content .member-list{
+    margin-top: 48px;
+}
+#content .member-item{
+   float: left;
+   width: 33.33333%;
+   text-align: center;
+   
+}
+#content .member-name{
+    font-size: 15px;
+}
+#content .member-avater{
+    width: 154px;
+    margin-top: 15px;
+    border-radius: 5px ;
+}
+/* End About */
+/* Tour */
+.tour-section{
+    background-color: black;
+}
+.ticket-list{
+    background-color: white;
+    margin-top: 40px;
+}
+.ticket-list li{
+    color: #757575;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+    list-style-type: none;
+}
+.ticket-list .sold-out{
+    background-color: #f44336;
+    color: #fff;
+    padding: 3px 4px;
+    margin-left: 16px;
 
+}
+.ticket-list .quatity{
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-top: -3px;
+
+}
+.places-list{
+    margin: 32px -8px 0;
+    
+}
+.place-item{
+    float: left;
+    width: 33.33333%;
+    padding: 0 8px;
+}
+.place-img{
+    width: 100%;
+}
+.place-img:hover{
+    opacity: 0.6;
+}
+.place-body{
+    background-color: #fff;
+}
+.place-heading{
+
+}
+.place-time{
+
+}
+.place-desc{
+
+}
+.place-buy-btn{
+
+}
+/* End Tour */
+/* Footer */
 #footer{
 
 }
+/* End Footer */
