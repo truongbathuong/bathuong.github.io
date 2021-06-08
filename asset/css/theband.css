@@ -1,0 +1,136 @@
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper{
+
+}
+/* Bengin hearder */
+#header{
+    width: 100%;
+    position: fixed;
+    height: 46px;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#nav{
+    display: inline-block;
+}
+#nav, .subnav{
+    list-style-type: none;
+    
+}
+#nav>li{
+    display: inline-block;
+}
+#nav li{
+   
+    position: relative;
+}
+#nav>li>a{
+    color: #ffff;
+    text-transform: uppercase;
+}
+
+#nav li a{
+    
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+#nav >li:hover >a,#nav .subnav li:hover{
+    color:black;
+    background-color: #ccc;
+}
+
+#nav .subnav{
+    display: none;
+    position: absolute;
+    background-color:white;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+    min-width: 160px;
+}
+#nav .subnav a{
+    color: black;
+    padding: 0 12px;
+    line-height: 38px;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+.nav-arrow-down{
+    font-size: 18px;
+}
+#header .search-btn{
+    
+    float: right;
+    
+}
+#header .search-icon{
+    color: white;
+    font-size: 20px;
+    line-height: 46px;
+    padding: 0 21px;
+}
+#header .search-btn:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+/* End header */
+
+#slider{
+    position: relative;
+    margin-top: 46px;
+    width: 100%;
+    padding-top: 50%;
+    background: url('../img/theband/chicago.jpg') top center / cover no-repeat;
+
+}
+#slider .text-content{
+    position: absolute;
+    bottom: 47px;
+    color: white;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    width: 100%;
+    text-align: center;
+
+}
+#slider .text-heading{
+    font-weight: 500;
+    font-size: 24px;
+    
+
+}
+#slider .text-dicription{
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+#content{
+
+}
+
+#about{
+
+}
+
+#contact{
+
+}
+
+#imgcontent{
+
+}
+
+#footer{
+
+}
